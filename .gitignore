@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# ML & Data files (usually too large for GitHub)
+*.csv
+*.xlsx
+*.pkl
+*.h5
+*.joblib
+*.model
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db 
+
+# MLflow
+mlruns/
+mlartifacts/
+notebooks/mlruns/
+notebooks/mlartifacts/
+
+# MLflow database files
+mlflow.db
+notebooks/mlflow.db
